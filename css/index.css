@@ -141,3 +141,17 @@ form {
   min-width: 54px;
   text-align: center;
 }
+
+#language{
+    display: flex;
+    margin-left: 35%;
+}
+
+.languageElements{
+    padding-left: 10px;
+}
+
+a:link{
+    color: #1a0dab;
+    text-decoration: none;
+}

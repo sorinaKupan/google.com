@@ -7,6 +7,7 @@
 .header{
     display: flex;
     align-items: flex-end;
+    padding-top: 5px;
 }
 
 #gmail, #imagini, #menu, #user{
@@ -14,9 +15,13 @@
     display: inline-flex;
     align-items: center;
     width: 25px;
-    height: 30px;
+    height: 25px;
 }
 
+#gmail, #imagini{
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
 #imagini{
     margin-left: 15px;
 }
@@ -25,3 +30,114 @@
     padding-left: 30px;;
 }
 
+#body{
+    margin-top: 9%;
+}
+
+#img{
+    margin-left: 35%;
+}
+
+form {
+    background-color:white;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  input {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+
+  ::placeholder {
+    color: #fff;
+    opacity: 0.7; 
+  }
+
+  button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  
+  svg {
+    color: #fff;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
+
+  #search-bar{
+      height: 44px;
+      margin-left: 30%;
+    border-color: black;
+    border-top-color: rgb(223, 225, 229);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(223, 225, 229);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(223, 225, 229);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(223, 225, 229);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 24px;
+    max-width: 584px;
+  }
+
+  #imgSearch{
+      margin-left: 10px;
+      width: 20px;
+      height: 20px;
+  }
+
+  #imgMicrofon{
+      padding-left: 8px;
+      padding-right: 8px;
+      height: 35px;
+      width: 35px;
+  }
+
+  #imgKeyboard{
+      width: 20px;
+      height: 20px;
+      padding-left: 8px;
+      padding-right: 8px;
+  }
+
+  .buttonsSearch{
+      display: flex;
+      margin-left: 35%;
+  }
+
+#cautare, #norocos{
+    width: 150px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+}

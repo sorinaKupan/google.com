@@ -1,6 +1,27 @@
-#header{
+#first{
+    margin-left: 85%;
     display: flex;
+    align-items: center;
 }
+
+.header{
+    display: flex;
+    align-items: flex-end;
+}
+
 #gmail, #imagini, #menu, #user{
-    padding-left: 10px;
+    padding-left: 15px;
+    display: inline-flex;
+    align-items: center;
+    width: 25px;
+    height: 30px;
 }
+
+#imagini{
+    margin-left: 15px;
+}
+
+#header2{
+    padding-left: 30px;;
+}
+

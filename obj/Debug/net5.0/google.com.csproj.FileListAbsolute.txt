@@ -1,0 +1,16 @@
+C:\Projects\google.com\bin\Debug\net5.0\google.com.exe
+C:\Projects\google.com\bin\Debug\net5.0\google.com.deps.json
+C:\Projects\google.com\bin\Debug\net5.0\google.com.runtimeconfig.json
+C:\Projects\google.com\bin\Debug\net5.0\google.com.runtimeconfig.dev.json
+C:\Projects\google.com\bin\Debug\net5.0\google.com.dll
+C:\Projects\google.com\bin\Debug\net5.0\ref\google.com.dll
+C:\Projects\google.com\bin\Debug\net5.0\google.com.pdb
+C:\Projects\google.com\obj\Debug\net5.0\google.com.csproj.AssemblyReference.cache
+C:\Projects\google.com\obj\Debug\net5.0\google.com.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\google.com\obj\Debug\net5.0\google.com.AssemblyInfoInputs.cache
+C:\Projects\google.com\obj\Debug\net5.0\google.com.AssemblyInfo.cs
+C:\Projects\google.com\obj\Debug\net5.0\google.com.csproj.CoreCompileInputs.cache
+C:\Projects\google.com\obj\Debug\net5.0\google.com.dll
+C:\Projects\google.com\obj\Debug\net5.0\ref\google.com.dll
+C:\Projects\google.com\obj\Debug\net5.0\google.com.pdb
+C:\Projects\google.com\obj\Debug\net5.0\google.com.genruntimeconfig.cache

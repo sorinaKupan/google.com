@@ -1,0 +1,6 @@
+#header{
+    display: flex;
+}
+#gmail, #imagini, #menu, #user{
+    padding-left: 10px;
+}

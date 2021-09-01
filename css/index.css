@@ -1,7 +1,10 @@
 #first {
-    margin-left: 85%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 .header {
     display: flex;
@@ -23,12 +26,12 @@
     font-size: 13px;
 }
 
+#gmail a:link, #imagini a:link {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
 #gmail a:hover, #imagini a:hover {
     text-decoration: underline;
-}
-
-#gmail a:link, #imagini a:link {
-    color: rgba(0,0,0,0.87);
 }
 
 #menu, #user {
@@ -330,7 +333,7 @@ color: #1a0dab;
     position:fixed;
     bottom:0;
     left:0;
-    width:100%;
+    right: 0;
     height: 90px;
 }
 
@@ -372,15 +375,17 @@ color: #1a0dab;
 
 #second-menu {
     align-items: flex-end;
-    margin-left: 48%;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
 }
 
 @media screen and (max-width: 1500px) {
     #footer {
         height: 100px;
     }
-    #first {
-        margin-left: 82%;
+    #second-menu {
+        bottom: 20px;
     }
     #img {
         margin-left: 35% ;
@@ -396,12 +401,14 @@ color: #1a0dab;
     }
 }
 
-@media screen and (max-width: 1200px) {
-    #footer {
-        height: 100px;
+@media screen and (max-width: 800px) {
+    #footerMenu {
+        display: block;
     }
-    #first {
-        margin-left: 70%;
+    #second-menu {
+        bottom: 10px;
+        top: 80px;
+        left: 20%;
     }
     #img {
         margin-left: 30% ;
@@ -416,16 +423,7 @@ color: #1a0dab;
         margin-left: 28%;
     }
 }
-    @media screen and (max-width: 800px) {
-        #footerMenu {
-            display: block;
-        }
-        #second-menu {
-            margin-left: 20%;
-        }
-        #first {
-            margin-left: 50%;
-        }
+    @media screen and (max-width: 650px) {
         #img {
             margin-left: 25% ;
         }

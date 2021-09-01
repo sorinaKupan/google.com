@@ -318,7 +318,7 @@
 
   #buttonsSearch{
       display: flex;
-      margin-left: 40%;
+      margin-left: 38%;
       margin-top: 15px;
   }
 
@@ -340,7 +340,11 @@
 
 #language{
     display: flex;
-    margin-left: 43%;
+    margin-left: 40%;
+}
+
+#language a:hover{
+    text-decoration: underline;
 }
 
 .languageElements{

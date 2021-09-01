@@ -10,6 +10,7 @@
 
 #gmail, #imagini{
     padding-left: 15px;
+    padding-right: 15px;
     display: inline-flex;
     align-items: center;
     width: 25px;
@@ -41,7 +42,7 @@
     height: 26px;
     align-items: center;
     display: inline-flex;
-    padding-top: 10px;
+    padding-top: 8px;
 }
 
 #image-menu{
@@ -76,43 +77,73 @@
     font-family: arial,sans-serif;
     font-size: 13px;
 }
-#imagini{
-    margin-left: 15px;
-}
 
 #header2{
-    padding-left: 30px;
-    padding-top: 10px;
+    padding-left: 40px;
+    padding-top: 3px;
 }
 
-.tooltipApp  {
+#name, #email{
+    color: #bdc1c6;
+    font-size: 12px;
+    font-family: Roboto, arial, sans-serif;
+    text-align: left;
+}
+#title{
+    text-align: left;
+    font-size: 12px;
+    font-family: Roboto, arial, sans-serif;
+}
+
+.tooltipApp, .tooltipCont {
     position: relative;
     display: inline-block;
     cursor: pointer;
   }
-
-.tooltipApp .tooltiptext {
+  .tooltipApp .tooltiptext{
     visibility: hidden;
-    width: 120px;
+    width: 100px;
     background-color: #555;
     color: #fff;
     text-align: center;
     font-size: 13px;
     font-family: arial,sans-serif;
-    padding: 5px 0;
+    padding: 5px;
     border-radius: 6px;
   
     position: absolute;
     z-index: 0;
     top: 130%;
     left: 50%;
-    margin-left: -60px;
+    margin-left: -70px;
+    margin-right: 10px;
+  
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+.tooltipCont .tooltiptext {
+    visibility: hidden;
+    width: 170px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    padding: 15px;
+    border-radius: 6px;
+  
+    position: absolute;
+    z-index: 0;
+    top: 130%;
+    left: 50%;
+    margin-left: -180px;
+    margin-right: 10px;
   
     opacity: 0;
     transition: opacity 0.3s;
   }
   
-  .tooltipApp:hover .tooltiptext {
+  .tooltipApp:hover .tooltiptext, .tooltipCont:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
   }

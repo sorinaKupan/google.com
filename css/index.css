@@ -30,7 +30,7 @@
 }
 
 #body{
-    margin-top: 9%;
+    margin-top: 7%;
 }
 
 #img{
@@ -45,7 +45,7 @@
     padding-bottom: 20px;
 }
 
-form {
+#form {
     background-color:white;
     height: 44px;
     border-radius: 5px;
@@ -63,11 +63,6 @@ form {
     padding: 6px 10px;
   }
 
-  ::placeholder {
-    color: #fff;
-    opacity: 0.7; 
-  }
-
   button {
     all: unset;
     cursor: pointer;
@@ -83,9 +78,9 @@ form {
     padding: 10px;
   }
 
-  #search-bar{
-      height: 44px;
-      margin-left: 30%;
+  #form{
+    height: 44px;
+    margin-left: 30%;
     border-color: black;
     border-top-color: rgb(223, 225, 229);
     border-top-style: solid;
@@ -99,13 +94,8 @@ form {
     border-left-color: rgb(223, 225, 229);
     border-left-style: solid;
     border-left-width: 1px;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
     border-radius: 24px;
-    max-width: 584px;
+    max-width: 570px;
   }
 
   #imgSearch{
@@ -128,13 +118,14 @@ form {
       padding-right: 8px;
   }
 
-  .buttonsSearch{
+  #buttonsSearch{
       display: flex;
-      margin-left: 35%;
+      margin-left: 40%;
+      margin-top: 15px;
   }
 
 #cautare, #norocos{
-    width: 150px;
+    width: 110px;
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
@@ -151,7 +142,7 @@ form {
 
 #language{
     display: flex;
-    margin-left: 38%;
+    margin-left: 43%;
 }
 
 .languageElements{
@@ -233,11 +224,11 @@ a:link{
     #search-bar{
         margin-left: 25%;
     }
-    .buttonsSearch{
+    #buttonsSearch{
         margin-left: 30%;
     }
     #language{
-        margin-left: 35%;
+        margin-left: 32%;
     }
 }
 
@@ -254,11 +245,11 @@ a:link{
     #search-bar{
         margin-left: 15%;
     }
-    .buttonsSearch{
+    #buttonsSearch{
         margin-left: 20%;
     }
     #language{
-        margin-left: 30%;
+        margin-left: 29%;
     }
 }
     @media screen and (max-width: 800px) {
@@ -277,10 +268,10 @@ a:link{
         #search-bar{
             margin-left: 10%;
         }
-        .buttonsSearch{
+        #buttonsSearch{
             margin-left: 15%;
         }
         #language{
-            margin-left: 25%;
+            margin-left: 20%;
         }
     }

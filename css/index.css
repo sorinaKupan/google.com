@@ -85,7 +85,37 @@
     padding-top: 10px;
 }
 
+.tooltipApp  {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
 
+.tooltipApp .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    padding: 5px 0;
+    border-radius: 6px;
+  
+    position: absolute;
+    z-index: 0;
+    top: 130%;
+    left: 50%;
+    margin-left: -60px;
+  
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltipApp:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
 
 #body{
     margin-top: 7%;

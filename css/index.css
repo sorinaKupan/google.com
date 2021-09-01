@@ -6,7 +6,6 @@
 
 .header{
     display: flex;
-    align-items: flex-end;
     padding-top: 5px;
 }
 
@@ -220,3 +219,68 @@ a:link{
     align-items: flex-end;
     margin-left: 48%;
 }
+
+@media screen and (max-width: 1500px) {
+    #footer{
+        height: 100px;
+    }
+    #first{
+        margin-left: 82%;
+    }
+    #img{
+        margin-left: 35% ;
+    }
+    #search-bar{
+        margin-left: 25%;
+    }
+    .buttonsSearch{
+        margin-left: 30%;
+    }
+    #language{
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #footer{
+        height: 100px;
+    }
+    #first{
+        margin-left: 70%;
+    }
+    #img{
+        margin-left: 30% ;
+    }
+    #search-bar{
+        margin-left: 15%;
+    }
+    .buttonsSearch{
+        margin-left: 20%;
+    }
+    #language{
+        margin-left: 30%;
+    }
+}
+    @media screen and (max-width: 800px) {
+        #footerMenu{
+            display: block;
+        }
+        #second-menu{
+            margin-left: 20%;
+        }
+        #first{
+            margin-left: 55%;
+        }
+        #img{
+            margin-left: 25% ;
+        }
+        #search-bar{
+            margin-left: 10%;
+        }
+        .buttonsSearch{
+            margin-left: 15%;
+        }
+        #language{
+            margin-left: 25%;
+        }
+    }

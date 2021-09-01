@@ -198,7 +198,7 @@
 #body {
     margin-top: 7%;
     position: absolute;
-    right: 25%;
+    right: 28%;
 }
 
 #imgGoogle {
@@ -259,7 +259,7 @@ button {
 input {
     all: unset;
     font: 16px;
-    color: #fff;
+    color: rgba(0,0,0,.87);
     height: 100%;
     width: 100%;
     padding: 6px 10px;

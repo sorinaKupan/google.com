@@ -311,8 +311,12 @@ input {
 #language {
     display: flex;
     position: absolute;
-    right: 25%;
+    right: 35%;
     margin-top: 10%;
+}
+
+#pLanguage{
+    width: 100px;
 }
 
 .languageElements {

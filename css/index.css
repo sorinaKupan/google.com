@@ -35,7 +35,15 @@
 }
 
 #img{
-    margin-left: 35%;
+    margin-left: 40%;
+    width: 272px;
+    height: 92px;
+}
+
+#googleImage{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 form {
@@ -49,7 +57,7 @@ form {
 
   input {
     all: unset;
-    font: 16px system-ui;
+    font: 16px;
     color: #fff;
     height: 100%;
     width: 100%;
@@ -144,14 +152,71 @@ form {
 
 #language{
     display: flex;
-    margin-left: 35%;
+    margin-left: 38%;
 }
 
 .languageElements{
     padding-left: 10px;
+    color: #3c4043;
+    font-size: small;
+    font-family: arial,sans-serif;
+    line-height: 28px;
 }
 
 a:link{
     color: #1a0dab;
     text-decoration: none;
+    padding-top: 14px;
+}
+
+#footer{
+    display: block;
+    align-items: center;
+    background-color: #f2f2f2;
+    margin-top: 15%;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 90px;
+}
+
+#footerMenu{
+    display: flex;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #70757a;
+    margin-bottom: 30px;
+    padding-left: 25px;
+}
+
+#footerMenu a:link{
+    color: #70757a;
+}
+
+#footerMenu a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+#country{
+    font-size: 15px;
+    border-bottom: 1px solid #dadce0;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    color: rgba(0,0,0,.54);
+    font-family: arial,sans-serif;
+}
+
+.menu-footer{
+    padding: 15px;
+}
+
+#second-menu{
+    align-items: flex-end;
+    margin-left: 48%;
 }

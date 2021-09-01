@@ -147,6 +147,11 @@
     position: relative;
     display: inline-block;
   }
+
+  .tooltipMicrofon{
+      position: relative;
+      display: inline-block;
+  }
   
   .tooltipKeyboard .tooltiptext {
     visibility: hidden;
@@ -164,6 +169,23 @@
     margin-left: -120px;
     margin-top: 5px;
   }
+
+  .tooltipMicrofon .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    left: 50%;
+    margin-left: -85px;
+    margin-top: 5px;
+  }
   
   .tooltipKeyboard .tooltiptext::after {
     content: "";
@@ -176,8 +198,23 @@
     border-color: transparent transparent rgb(75, 75, 75) transparent;
   }
   
+  .tooltipMicrofon .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 48%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgb(75, 75, 75) transparent;
+  }
+
   .tooltipKeyboard:hover .tooltiptext {
     visibility: visible;
+  }
+
+  .tooltipMicrofon:hover .tooltiptext{
+      visibility: visible;
   }
 
   

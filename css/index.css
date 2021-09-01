@@ -338,6 +338,10 @@
   text-align: center;
 }
 
+#cautare:hover, #norocos:hover{
+    border: 1px solid #d7d7d6;
+}
+
 #language{
     display: flex;
     margin-left: 40%;

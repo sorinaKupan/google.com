@@ -432,6 +432,16 @@ text-decoration: none;
     padding-left: 25px;
 }
 
+#footerMenu a {
+    color: #70757a;
+    text-decoration: none;
+}
+
+#footerMenu a:active {
+    color: #70757a;
+    text-decoration: none;
+}
+
 #footerMenu a:link {
     color: #70757a;
     text-decoration: none;
